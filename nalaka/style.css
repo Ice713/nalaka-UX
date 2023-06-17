@@ -32,7 +32,7 @@ background: linear-gradient(135deg, rgba(0,129,167,1) 0%, rgba(0,175,185,1) 70%,
 }
 
 .roboto {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif!important;
 
 }
 
@@ -71,4 +71,29 @@ background: linear-gradient(135deg, rgba(0,129,167,1) 0%, rgba(0,175,185,1) 70%,
     border-radius: 20px;
 
     color: #FED9B7!important;
+}
+
+.transparent-bg {
+    background: none!important;
+}
+
+#phone-number:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+
+    bottom: -4px;
+
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 50%;
+    background: green;
+
+    transition: .5s;
+}
+
+.num-pad {
+    background-color: #D9D9D9;
+    color: #0081A7;
 }
