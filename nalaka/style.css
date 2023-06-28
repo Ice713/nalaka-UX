@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
 
 
@@ -36,6 +38,14 @@ body.out {
 .roboto {
     font-family: 'Roboto', sans-serif!important;
 
+}
+
+.questrial {
+    font-family: 'Questrial', sans-serif;
+}
+
+.quicksand {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .dark-color {
@@ -128,4 +138,78 @@ body.out {
 .history-refresh {
     border-radius: 14px;
     background: #D9D9D9;
+}
+
+.container.payment {
+    background: url('assets/payment-bg.png');
+    background-repeat: no-repeat;
+}
+
+.nalaka-wallet {
+    width: 385px;
+    height: 222px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(57deg, #086511 0%, #3EC14B 100%);
+}
+
+.long-rectangle {
+    width: 333px;
+    height: 41px;
+    flex-shrink: 0;
+    border-radius: 6px;
+}
+
+#lr1 {
+    background: #0081A7;
+}
+
+#lr2 {
+    background: #3EC14B;
+}
+
+#lr3 {
+    background: rgb(0, 175, 185);
+}
+
+.short-rectangle {
+    width: 92px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    border: 0.7px solid #0081A7;
+    background: #FFF;
+    box-shadow: 0px 1px 3px 0px #0081A7;
+    color: #086511;
+}
+
+.payment-line {
+    width: 385px;
+    height: 0.5px;
+    background: #0081A7;
+}
+
+.square-box {
+    width: 114px;
+    height: 114px;
+    border-radius: 5px;
+    flex-shrink: 0;
+}
+
+#sq1{
+    background: linear-gradient(180deg, #0081A7 0%, #00AFB9 100%);
+}
+#sq2{
+    background: linear-gradient(180deg, #00AFB9 23.19%, #43E3EC 100%);
+}
+#sq3{
+    background: linear-gradient(180deg, #086511 0%, #3EC14B 100%);
+}
+#sq4{
+    background: linear-gradient(180deg, #008464 0%, #2EBA98 100%);
+}
+
+.recent-transactions {
+    width: 385px;
+    height: 385px;
 }

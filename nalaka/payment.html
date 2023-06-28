@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nalaka</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+    <body>
+        <div class="container payment">
+            <div class="payment-header pb-3 pt-3.5">
+                <h2 class="questrial text-4xl tracking-wider">Payment</h2>
+                <p class="tracking-widest questrial text-xs">Our multi-layered security keeps you safe</p>
+            </div>
+            <div class="payment-body text-white">
+                <div class="nalaka-wallet pt-4 pl-5">
+                    <p class="questrial">nalaka Wallet</p>
+                    <h4 class="quicksand font-semibold">₱0.00</h4>
+                </div>
+
+                <div class="flex flex-row mt-6 overflow-y-scroll">
+                    <div class="long-rectangle mr-2.5 text-white pl-8 quicksand text-xs pt-1.5" id="lr1">
+                        <h5 class="font-medium">Review verification details</h5>
+                        <p class="font-light">Update and resubmit your details</p>
+                    </div>
+                    <div class="long-rectangle mr-2.5 text-white pl-8 quicksand text-xs pt-1.5" id="lr2">
+                        <h5 class="font-medium">Get nalaka Wallet Card</h5>
+                        <p class="font-light">User your wallet everywhere</p>
+                    </div>
+                    <div class="long-rectangle mr-2.5 text-white pl-8 quicksand text-xs pt-1.5" id="lr3">
+                        <h5 class="font-medium">Increase cash-in limit 20 ₱250K per month</h5>
+                        <p class="font-light">Verify your identity below</p>
+                    </div>
+                </div>
+
+                <div class="flex flex-row mt-4 overflow-y-scroll">
+                    <button class="short-rectangle mr-3">
+                        <p class="text-sm">Cash In</p>
+                    </button>
+                    <button class="short-rectangle mr-3">
+                        <p class="text-sm">Scan to Pay</p>
+                    </button>
+                    <button class="short-rectangle mr-3">
+                        <p class="text-sm">Transfer</p>
+                    </button>
+                    <button class="short-rectangle mr-3">
+                        <p class="text-sm">Send</p>
+                    </button>
+                </div>
+
+                <div class="payment-line my-7"></div>
+
+                <h3 class="quicksand text-sm font-medium text-black tracking-widest">Recommended for you</h3>
+                
+                <div class="flex flex-row mt-2 overflow-y-scroll">
+                    <button class="square-box mr-2.5" id="sq1"></button>
+                    <button class="square-box mr-2.5" id="sq2"></button>
+                    <button class="square-box mr-2.5" id="sq3"></button>
+                    <button class="square-box mr-2.5" id="sq4"></button>
+                </div>
+
+                <div class="payment-line my-7"></div>
+                
+                <h3 class="quicksand text-sm font-medium text-black tracking-widest">Recent Transactions</h3>
+
+                <div class="recent-transactions flex flex-col justify-center content-center text-center text-xs font-medium tracking-wider">
+                    <p class="text-black">There's no recent activity to show here.</p>
+                    <a href="#" class="theme-color mb-3">See past transactions</a>
+                    <object data="assets/most-recent.svg" width="98" height="98" class="mx-auto"></object>
+                </div>
+
+
+            </div>
+            
+            
+            
+        </div>
+
+        <!-- Footer Nav -->
+        <div class="sticky bottom-0 bg-theme-color w-100 p-3 flex flex-row justify-between">  <!-- class should be "absolute" if empty or "sticky" if content is larger that screen -->
+            <a href="home.html" class="bottom-nav">
+                <object data="assets/home-nav.svg" width="32" height="32" class="mx-auto"></object>
+                <h3 class="roboto text-xs font-medium">Home</h3>
+            </a>  
+            <a href="#" class="bottom-nav">
+                <object data="assets/activity-nav.svg" width="32" height="32" class="mx-auto"></object>
+                <h3 class="roboto text-xs font-medium">Activity</h3>
+            </a>  
+            <a href="#" class="bottom-nav active">
+                <object data="assets/payment-nav.svg" width="32" height="32" class="mx-auto"></object>
+                <h3 class="roboto text-xs font-medium">Payment</h3>
+            </a>  
+            <a href="#" class="bottom-nav">
+                <object data="assets/messages-nav.svg" width="32" height="32" class="mx-auto"></object>
+                <h3 class="roboto text-xs font-medium">Messages</h3>
+            </a>  
+            <a href="#" class="bottom-nav">
+                <object data="assets/account-nav.svg" width="32" height="32" class="mx-auto"></object>
+                <h3 class="roboto text-xs font-medium">Account</h3>
+            </a>  
+        </div>        
+    </body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</html>
